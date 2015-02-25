@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
-	<title>lxndrtsh | Kansas Web Developer</title>
+	<title>Alexander Tash | Kansas Web Developer</title>
 	<meta name="author" content="Alexander Tash" />
 	<meta name="description" content="kansas city web developer" />
 	<meta name="keywords"  content="kansas city web developer, php developer, html developer, css developer, javascript developer, programmer" />
