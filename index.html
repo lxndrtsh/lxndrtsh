@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Alexander Tash is a Kansas City web developer working as a Software Engineer at Rx Savings Solutions.">
+    <meta name="author" content="lxndrtsh">
+
+    <title>Alexander Tash - Kansas City Web Developer</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); >My Favorite Things</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Recent Work</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Hi, I'm Alex.</h1>
+            <h3>And I'm a Nerd</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>I am currently employed as a Manager of Software Engineering at Rx Savings Solutions.</h2>
+                    <p class="lead">We do some pretty cool stuff - <a href="http://rxsavingssolutions.com" target="_blank">you should check it out</a>.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>My Favorite Things</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-html5 fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Web Development</strong>
+                                </h4>
+                                <p>I love making full-stack web applications.</p>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#webDevModal">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Version Control</strong>
+                                </h4>
+                                <p>By current flavor of VCS is Git! But I also know SVN and Mercurial.</p>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#versionControlModal">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-users fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Management</strong>
+                                </h4>
+                                <p>I help run teams of software engineers make awesome stuff!</p>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#managerModal">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gamepad fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Gaming</strong>
+                                </h4>
+                                <p>If I'm not playing the game, I'm attempting to hack it.</p>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#gamingModal">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>My Favorite Language is PHP!</h1>
+            <p>Please don't hold that against me.</p>
+            <h2>I'm developing on a full LAMP stack using the Laravel Framework. It's awesome!</h2>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Recent Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" data-toggle="modal" data-target="#portfolioFirst">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio/thumbs/rxss.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" data-toggle="modal" data-target="#portfolioSecond">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio/thumbs/medfisher.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" data-toggle="modal" data-target="#portfolioThird">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio/thumbs/lakerat.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" data-toggle="modal" data-target="#portfolioFourth">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio/thumbs/rebekah-design.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Want to communicate? Well, here are your options:</h3>
+                    <a href="https://www.linkedin.com/in/lxndrtsh" target="_blank" class="btn btn-lg btn-light"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.github.com/lxndrtsh" target="_blank" class="btn btn-lg btn-light"><i class="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com/lxndr.tsh" target="_blank" class="btn btn-lg btn-light"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Modal for Web Development -->
+    <div class="modal fade" id="webDevModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Web Development</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center">
+                        <img src="img/logos/php.png" class="php-logo" />
+                        <img src="img/logos/python.png" class="python-logo" />
+                    </p>
+                    <p>I play around a lot with nearly every language I can easily touch. I pick my favorite languages based off of the community and how open is is. Because of this, I have been programming primarily in <code>PHP</code> for over 10 years! I enjoy a few other languages as well; <code>Python</code> is becoming a very close competitor and some of the new languages such as <code>Swift</code> and <code>Go</code> are becoming very attractive.</p>
+                    <p class="text-center">
+                        <img src="img/logos/angular.jpg" class="angular-logo" />
+                    </p>
+                    <p>I have worked on full web applications on the frontend side as well! <code>Angular</code> is seriously kick-ass and have been a almost constant tool. So, from RESTful API's with <code>PHP</code> or <code>Python</code> all the way to Single Page Applications, I've done (and loved) it all!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Version Control -->
+    <div class="modal fade" id="versionControlModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Version Control</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center"><code class="code-heading">git pull origin/awesome</code></p>
+                    <p>I've been a firm believer in making life as easy as possible when coding. I find that good developers are lazy and will ignore even the best of practices if it's not simple to follow. What makes version control incredible is the ease of use it has for developers to actively maintain a codebase while keeping other teammates in the loop.</p>
+                    <p>Where I work currently, we actively deploy using a <code>dev &gt; QA &gt; RC &gt; master</code> practice that allows us to do constant deployments and active development.</p>
+                    <p>I have worked with Github, Bitbucket and Crucible - along with Jenkins and Bamboo for auto deployment. As a software engineer manager, I am handling large amounts of work that goes through our version control system while handling releases on a weekly/bi-weekly sprint.</p>
+                    <p>I've also got good experience with <code>Subversion</code>, <code>Mercurial</code>, and <code>TFS</code>!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/lxndrtsh" target="_blank" class="btn btn-default">Check Out My Github!</a>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Team Management -->
+    <div class="modal fade" id="managerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Team Management</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center"><i class="fa fa-users large-icon"></i></p>
+                    <p>My current job has given me a lot of responsibility to help manage teams of developers who are creating a wide range of different products for the clients. I am actively using team management software and practices. Some of my current toosl include <code>JIRA</code>, with all of its glory.</p>
+                    <p>My main goal as a manager to help eliminate any roadblocks for my team! Every morning we have a daily stand-up where my team mates tell me what they worked on yesterday, what they are working on today, as well as if there any roadblocks. I will put off other tasks in order to remove these roadblocks!</p>
+                    <p>I take pride in managing the fine balance between the business side and the engineers; managers are trusted protectors of the engineer's interest who will negotiate with the business side on requirements and expectations. I may be a goof-ball, but that is one area of my job that I take completely seriously.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Gaming Modal -->
+    <div class="modal fade" id="gamingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Gaming</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center"><img src="img/gamer.jpg" class="gamer-meme"></p>
+                    <p>I'm working with groups of friends setting up Private Servers of different games that have been turned off recently. It's very rewarding learning the inner workings of different games, the data that was stored, and building web applications that communicate with the data in a proper way that doesn't impact the game.</p>
+                    <p>I'm also working with different <code>APIs</code> to display useful information for gamers, specifically on <em>Guild Wars 2</em>. It's a pretty nerdy hobby, but there's something about how I interact with technology that has kept me satisfied for most of my life.</p>
+                    <p>But, I've been playing guitar for many years as well - hope that redeems me a little bit with the cool kids!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for First Portfolio Item -->
+    <div class="modal fade" id="portfolioFirst" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Rx Savings Solutions</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center portfolio-heading">
+                        <iframe src="https://player.vimeo.com/video/96754764" frameborder="0" width="500" height="291" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" class="hidden-xs"></iframe>
+                    </div>
+                    <p>I have been with this company for a couple of years now; and this has been my primary focus! We are currently in the process of active development on many different aspects from member areas, API's and internal servicing functionality.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://rxsavingssolutions.com" target="_blank" class="btn btn-default">Go to Website</a>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Second Portfolio Item -->
+    <div class="modal fade" id="portfolioSecond" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Medfisher</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center portfolio-heading">
+                        <img src="img/portfolio/medfisher-search.jpg" />
+                    </div>
+                    <p>The main priority of Medfisher is to help promote consumerism for people who take prescription medications. We search near you for pharmacies that are on certain negotiated rates with us, and they are always cheaper than cash and can even be cheaper than your insurance!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://medfisher.com" target="_blank" class="btn btn-default">Go to Website</a>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Third Portfolio Item -->
+    <div class="modal fade" id="portfolioThird" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Lake Rat Bar & Grill</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center portfolio-heading">
+                        <img src="img/portfolio/lakerat.jpg" />
+                    </div>
+                    <p>I enjoy helping friends out! I've been working on a small site for his new restaurant opening down in the Lake of the Ozarks. If you're ever in the area, go check it out!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Fourth Portfolio Item -->
+    <div class="modal fade" id="portfolioFourth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Rebekah Hathaway Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center portfolio-heading">
+                        <img src="img/portfolio/rebekah-design.jpg" />
+                    </div>
+                    <p>While I may be a complete tech nerd, I'm not as graphically inclined compared to my fiance Rebekah Hathaway. So, together we've put together a portfolio for her as well. If you're ever interested in a web site, send her a message! The two of us will talk about it and may put something together for you.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
