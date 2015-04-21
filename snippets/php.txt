@@ -1,8 +1,0 @@
-/* But PHP is my favorite language */
-Route::group(array('prefix'=>'api/v1'), function() {
-
-	Route::post('/user', function() {
-		Route::resource('user', 'UserController');
-	})->before('auth.user');
-
-});

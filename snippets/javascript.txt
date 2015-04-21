@@ -1,8 +1,0 @@
-// I like JS/jQuery!
-$('#accordion').find('.content').hide();
-$('#accordion').find('.accordion-header').on('click',function(){
-	var next = $(this).next();
-	next.slideToggle('fast');
-	$(‘.content').not(next).slideUp('fast');
-	return false;
-});
